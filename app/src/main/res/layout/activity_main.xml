@@ -21,7 +21,7 @@
         android:layout_height="200dp"
         android:layout_margin="20dp"
         android:contentDescription="@string/my_pic"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        app:srcCompat="@drawable/czarnobyl" />
 
     <Button
         android:id="@+id/work"
@@ -29,7 +29,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:backgroundTint="#F44336"
-        android:text="@string/work_history" />
+        android:text="@string/work_history"
+        android:textColor="#000000" />
 
     <Button
         android:id="@+id/call"
@@ -37,7 +38,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:backgroundTint="#F44336"
-        android:text="@string/call_me" />
+        android:text="@string/call_me"
+        android:textColor="#000000" />
 
     <Button
         android:id="@+id/email"
@@ -45,5 +47,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:backgroundTint="#F44336"
-        android:text="@string/email_me" />
+        android:text="@string/email_me"
+        android:textColor="#000000" />
 </LinearLayout>
