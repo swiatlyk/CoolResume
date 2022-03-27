@@ -24,7 +24,7 @@
         app:srcCompat="@drawable/czarnobyl" />
 
     <Button
-        android:id="@+id/work"
+        android:id="@+id/workHistory"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -33,7 +33,7 @@
         android:textColor="#000000" />
 
     <Button
-        android:id="@+id/call"
+        android:id="@+id/callMe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -42,7 +42,7 @@
         android:textColor="#000000" />
 
     <Button
-        android:id="@+id/email"
+        android:id="@+id/emailMe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
