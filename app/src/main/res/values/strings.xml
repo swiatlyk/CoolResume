@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CoolResume</string>
+    <string name="krzysztof_swiat_y">Krzysztof Swiatły</string>
+    <string name="work_history">Work history</string>
+    <string name="call_me">Call me</string>
+    <string name="email_me">Email me</string>
+    <string name="my_pic">My_pic</string>
+</resources>
