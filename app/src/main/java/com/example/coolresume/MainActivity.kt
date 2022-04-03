@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
         val workHistory = findViewById<Button>(R.id.workHistory)
 
         workHistory.setOnClickListener {
-
             val moveToWorkHistory = Intent(getApplicationContext(), WorkHistoryActivity::class.java)
             startActivity(moveToWorkHistory)
         }
