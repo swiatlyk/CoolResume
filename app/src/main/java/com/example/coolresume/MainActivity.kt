@@ -32,8 +32,8 @@ class MainActivity : AppCompatActivity() {
             val emailIntent = Intent(Intent.ACTION_SENDTO)
             emailIntent.setType("plain/text")
             emailIntent.putExtra(Intent.EXTRA_EMAIL, Uri.fromParts("mailto", mailId, null))
-            emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Subject text here...")
-            emailIntent.putExtra(Intent.EXTRA_TEXT, "Some content here")
+            emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Kilka pytań do mnie...")
+            emailIntent.putExtra(Intent.EXTRA_TEXT, "Jakas tresc emaila...")
             startActivity(emailIntent)
         }
     }
